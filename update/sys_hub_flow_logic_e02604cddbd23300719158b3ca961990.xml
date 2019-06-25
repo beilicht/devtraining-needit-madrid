@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ac2604cddbd23300719158b3ca96198e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table display_value="Assignee Category Decision">4d2f7bb8dbd23300719158b3ca961942</decision_table>
+        <decision_table_inputs/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">38694b38db523300719158b3ca96193d</flow>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8f9ec72a-3b3f-4475-aca0-c6681e399f88</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-25 14:09:17</sys_created_on>
+        <sys_id>e02604cddbd23300719158b3ca961990</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_e02604cddbd23300719158b3ca961990</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-25 14:39:34</sys_updated_on>
+        <ui_id>279c1374-aaa9-481c-84ff-43a97405271a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e02604cddbd23300719158b3ca961990"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e02604cddbd23300719158b3ca961990</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-25 14:09:17</sys_created_on>
+        <sys_id>642604cddbd23300719158b3ca961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-25 14:09:17</sys_updated_on>
+        <value>Branch for Assignee Categories</value>
+        <variable display_value="">2d6a2ca70b2313009002cab937673aff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e02604cddbd23300719158b3ca961990</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-25 14:09:17</sys_created_on>
+        <sys_id>a02604cddbd23300719158b3ca961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-25 14:09:17</sys_updated_on>
+        <value>4d2f7bb8dbd23300719158b3ca961942</value>
+        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e02604cddbd23300719158b3ca961990</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-25 14:09:17</sys_created_on>
+        <sys_id>ec2604cddbd23300719158b3ca961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-25 14:09:17</sys_updated_on>
+        <value>x_58872_needit_assignee_category</value>
+        <variable display_value="">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e02604cddbd23300719158b3ca961990"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_priority</field>
+        <id>e02604cddbd23300719158b3ca961990</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-25 14:09:17</sys_created_on>
+        <sys_id>602604cddbd23300719158b3ca961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-25 14:09:17</sys_updated_on>
+        <table>var__m_sys_decision_input_4d2f7bb8dbd23300719158b3ca961942</table>
+        <value>{{Created_1.current.priority}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_request_type</field>
+        <id>e02604cddbd23300719158b3ca961990</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-25 14:09:17</sys_created_on>
+        <sys_id>e82604cddbd23300719158b3ca961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-25 14:09:17</sys_updated_on>
+        <table>var__m_sys_decision_input_4d2f7bb8dbd23300719158b3ca961942</table>
+        <value>{{Created_1.current.u_request_type}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_what_needed</field>
+        <id>e02604cddbd23300719158b3ca961990</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-25 14:09:17</sys_created_on>
+        <sys_id>282604cddbd23300719158b3ca961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-25 14:09:17</sys_updated_on>
+        <table>var__m_sys_decision_input_4d2f7bb8dbd23300719158b3ca961942</table>
+        <value>{{Created_1.current.u_what_needed}}</value>
+    </sys_element_mapping>
+</record_update>
